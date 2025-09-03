@@ -6,55 +6,64 @@ using System.Threading.Tasks;
 
 namespace CA0209
 {
-    class Pessoa
+    class Pessoa : IPessoa
     {
-        public string nome;
-        public string datanasc;
-        public string cpf;
-        public string endereco;
-        public string telefone;
-        public string estadocivil;
-        public string email;
+        public string Nome;
+        public string Datanasc;
+        public string Cpf;
+        public string Endereco;
+        public string Telefone;
+        public string Estadocivil;
+        public string Email;
 
-        public void cadastrarnome() 
+        public void CadastrarNome()
         {
             Console.WriteLine("Digite seu Nome");
-            nome = Console.ReadLine();
+            Nome = Console.ReadLine();
         }
-        public void cadastrardatanasc()
+        public void Cadastrardatanasc()
         {
             Console.WriteLine("Digite sua data de nascimento");
-            datanasc = Console.ReadLine();
+            Datanasc = Console.ReadLine();
         }
-        public void cadastrarcpf()
+        public void CadastrarCpf()
         {
             Console.WriteLine("Digite seu CPF");
-            cpf = Console.ReadLine();
+            Cpf = Console.ReadLine();
         }
-        public void cadastrarendereco()
+        public void CadastrarEndereco()
         {
-            Console.WriteLine("Digite seu endereço");
-            endereco = Console.ReadLine();
+            Console.WriteLine("Digite seu Endereço:");
+            Endereco = Console.ReadLine();
         }
-        public void cadastrartelefone()
+        public void CadastrarTelefone()
         {
-            Console.WriteLine("Digite seu número de Telefone");
-            telefone = Console.ReadLine();
+            Console.WriteLine("Digite seu número de Telefone:");
+            Telefone = Console.ReadLine();
         }
-        public void cadastrarestadocivil()
+        public void CadastrarEstadoCivil()
         {
-            Console.WriteLine("");
-            estadocivil = Console.ReadLine();
+            Console.WriteLine("Digite seu Estado Civil:");
+            Estadocivil = Console.ReadLine();
         }
-        public void cadastraremail()
+        public void CadastrarEmail()
         {
-            Console.WriteLine("Digite seu Email");
-            email = Console.ReadLine();
+            Console.WriteLine("Digite seu Email:");
+            Email = Console.ReadLine();
         }
+
+        public void ExibirNome()
+        {
+            Console.WriteLine("Nome: {0}");
+        }
+        public void
 
 
 
-        
+
+
+
 
     }
+
 }
