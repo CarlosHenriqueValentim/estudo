@@ -54,7 +54,7 @@ namespace CA0209
 
         public void ExibirNome()
         {
-            Console.WriteLine("Nome: {0}");
+            Console.WriteLine("Nome: {0}", Nome);
         }
         public void
 
