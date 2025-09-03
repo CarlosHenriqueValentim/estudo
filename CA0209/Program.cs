@@ -10,7 +10,7 @@ namespace CA0209
     {
         static void Main(string[] args)
         {
-
-        }
+            Pessoa Carlos = new Pessoa();
+            Carlos.cadastrartelefone();        }
     }
 }
