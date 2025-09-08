@@ -82,13 +82,6 @@ namespace CA0209
         {
             Console.WriteLine("Email: {0}", Email);
         }
-
-
-
-
-
-
-
     }
 
 }
