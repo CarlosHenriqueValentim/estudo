@@ -13,6 +13,12 @@ namespace CA0209
             Pessoa Carlos = new Pessoa();
             Carlos.CadastrarNome();
             Carlos.ExibirNome();
+            Cliente cliente = new Cliente();
+            cliente DefinirCodigo();
+            Carlos.Cadastrardatanasc();
+            Carlos.ExibirDatanasc();
+            Carlos.CadastrarCpf();
+           
         }
     }
 }
