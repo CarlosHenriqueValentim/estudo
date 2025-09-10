@@ -16,7 +16,7 @@ namespace CA0209
         public string Estadocivil;
         public string Email;
         
-        //Exibição Cadastrar
+       
         public void CadastrarNome()
         {
             Console.WriteLine("Digite seu Nome");
@@ -53,7 +53,7 @@ namespace CA0209
             Email = Console.ReadLine();
         }
         
-        //Exibição Resposta dos Dados
+       
         public void ExibirNome()
         {
             Console.WriteLine("Nome: {0}", Nome);
